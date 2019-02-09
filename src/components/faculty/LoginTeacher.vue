@@ -26,16 +26,7 @@
                                 v-model="password">
                         </p>
                     </div>
-                    <div class="field">
-                        <label class="label">Enrollment Number</label>
-
-                        <p class="control">
-                            <input
-                                type="password"
-                                class="input"
-                                v-model="enroll_no">
-                        </p>
-                    </div>
+                   
 
                     <p class="control">
                         <button class="button is-primary is-fullwidth is-uppercase">Login</button>
