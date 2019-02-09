@@ -3,17 +3,21 @@
         <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
             <div class="container">
                 <div class="navbar-brand">
-                    <router-link class="navbar-item" to="/">Attendance App</router-link>
-
+                    <router-link class="navbar-item" to="home">Attendance App</router-link>
+                    
                     <button class="button navbar-burger">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
                 </div>
+                
             </div>
         </nav>
+       
+        
         <router-view/>
+        
     </div>
 </template>
 

@@ -26,6 +26,7 @@
                                 v-model="password">
                         </p>
                     </div>
+                   
 
                     <p class="control">
                         <button class="button is-primary is-fullwidth is-uppercase">Login</button>
@@ -37,10 +38,9 @@
 </template>
 
 <script>
-import { LOGIN_MUTATION } from '@/graphql'
-
+import firebase from 'firebase'
 export default {
-    name: 'LogIn',
+    name: 'LoginStudent',
     data () {
         return {
             email: '',
@@ -48,23 +48,17 @@ export default {
         }
     },
     methods: {
-        login () {
-            this.$apollo
-                .mutate({
-                    mutation: LOGIN_MUTATION,
-                    variables: {
-                        email: this.email,
-                        password: this.password
-                    }
-                })
-                .then(response => {
-                    // save user token to localstorage
-                    localStorage.setItem('attendance-app-token', response.data.login)
+        login: function(){
+            firebase.auth().signInWithEmailAndPassword(this.email,this.password).then(
+                (user) => {
+                    this.$router.replace('studenthome')
+                },
+                function(err){
+                    alert('OOPS' +err.message)
+                }
+            );
 
-                    // redirect user
-                    this.$router.replace('/admin/posts')
-                })
-        }
+        } 
     }
 }
 </script>
