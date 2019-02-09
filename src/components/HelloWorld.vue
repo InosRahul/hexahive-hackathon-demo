@@ -1,33 +1,32 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa" target="_blank" rel="noopener">pwa</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+<div>
+  
+	<pre>
+		
+	
+
+
+
+
+
+	
+
+
+
+
+	<h1 align="center"><b>ATTENDANCE TRACKER</b></h1>
+	</pre>
+
+
+	<table id="t1" align="center">
+		<tr><td><font size=5 color="lime" ><button class="button">Signup</button></font></td></tr>
+    </table>
+    <br>
+    <table id="t2" align="center">
+		<tr><td><font size=5 color="lime" ><button class="button is-primary is-fullwidth is-uppercase">Login</button></font> </td></tr>	
+	</table>
   </div>
+
 </template>
 
 <script>
@@ -54,5 +53,67 @@ li {
 }
 a {
   color: #42b983;
+}
+h1{
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+	color: lime;
+	font-size: 50px;
+  background-color: black;
+
+}
+pre{
+  background-color: black;
+}
+table{
+  background-color: black;
+}
+div{
+  background-color: black;
+}
+
+
+
+.button {
+  background-color: transparent;
+  border-radius: 15px;
+  border-color: lime;           
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button1 {
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: lime;           
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+
+
+.button:hover{
+
+
+ font-size: 20px;
+
+}
+
+.button1:hover{
+
+	font-size: 40px;
 }
 </style>
