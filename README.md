@@ -14,13 +14,21 @@
 4. **Teachers can send SMS/Email to concerned parents when attendance drops low than 75%**
 5. **Very small application size < 100 KiloBytes**
 
-# diamond-hack
+# Attendance-Tracker
 
+## Installation
+
+
+
+**Clone this repository**
+
+```
+cd hexahive-hackathon
+```
+```
+npm install or yarn install
+```
 ## Project setup
-```
-npm install
-```
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
