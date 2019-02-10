@@ -14,6 +14,12 @@
 4. **Teachers can send SMS/Email to concerned parents when attendance drops low than 75%**
 5. **Very small application size < 100 KiloBytes**
 
+## Team Members
+1. Rahul Soni
+2. Deep Kokje
+3. Viral Thaker
+4. Parth Vyas
+
 # Attendance-Tracker
 
 ## Installation
