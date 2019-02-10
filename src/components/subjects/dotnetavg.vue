@@ -40,12 +40,6 @@
 import { AVG_DATA_DOTNET } from '@/graphql'
 import {AVG_DATA_DOTNET_2} from '@/graphql'
 import { AVG_DATA_DOTNET_3} from '@/graphql'
-import { AVG_DATA_AJ_1} from '@/graphql'
-import { AVG_DATA_AJ_2} from '@/graphql'
-import { AVG_DATA_AJ_3} from '@/graphql'
-import { AVG_DATA_WT_1} from '@/graphql'
-import { AVG_DATA_WT_2} from '@/graphql'
-import { AVG_DATA_WT_3} from '@/graphql'
 
 
 export default {
@@ -58,7 +52,8 @@ export default {
     }),
        apollo:{
            dotnet_aggregate:{
-               query: AVG_DATA_DOTNET
+               query: AVG_DATA_DOTNET_3,
+               
            },
           
        }, 

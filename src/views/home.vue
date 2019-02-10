@@ -4,8 +4,8 @@
         <div class="columns">
             
             <div class="column is-4 is-offset-4">
-                <img alt="Vue logo" src="../assets/VueLogo.png" style="padding-bottom:20px; margin-bottom:20px;">
-                
+                <img alt="Vue logo" src="../assets/logo.png" style="padding-bottom:20px; margin-bottom:20px;">
+                <h1 class="title">Attendance Tracker </h1>
                 
                 <router-link class="button is-primary" style="margin-left:10px; margin-top:10px;" :to="'loginstudent'">Login as Student</router-link>
                 <br>

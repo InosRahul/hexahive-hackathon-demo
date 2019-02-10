@@ -17,7 +17,7 @@
                         </thead>
                         <tbody>
                             <tr
-                                v-for="items in dotnet_aggregate"
+                                v-for="items in wt_aggregate"
                                 :key="items.count">
                                     <td>{{ items.count }}</td>
                                     <td>{{ items.avg }}</td>
@@ -37,12 +37,7 @@
 
 
 <script>
-import { AVG_DATA_DOTNET } from '@/graphql'
-import {AVG_DATA_DOTNET_2} from '@/graphql'
-import { AVG_DATA_DOTNET_3} from '@/graphql'
-import { AVG_DATA_AJ_1} from '@/graphql'
-import { AVG_DATA_AJ_2} from '@/graphql'
-import { AVG_DATA_AJ_3} from '@/graphql'
+
 import { AVG_DATA_WT_1} from '@/graphql'
 import { AVG_DATA_WT_2} from '@/graphql'
 import { AVG_DATA_WT_3} from '@/graphql'
@@ -57,8 +52,9 @@ export default {
         
     }),
        apollo:{
-           dotnet_aggregate:{
-               query: AVG_DATA_DOTNET
+           wt_aggregate:{
+               query: AVG_DATA_WT_1,
+               
            },
           
        }, 

@@ -10,7 +10,13 @@ import ViewChart from '@/components/ViewChart'
 import SignUpStudent from '@/components/SignUpStudent'
 import TeacherHome from '@/components/TeacherHome'
 import StudentHome from '@/components/StudentHome'
+import dotnetavg from '@/components/subjects/dotnetavg'
+import ajavg from '@/components/subjects/ajavg'
+import wtavg from '@/components/subjects/wtavg'
 import home from '@/views/home'
+import aj1 from '@/components/subjects/aj/aj1'
+import aj2 from '@/components/subjects/aj/aj2'
+import aj3 from '@/components/subjects/aj/aj3'
 import firebase from 'firebase'
 
 Vue.use(Router)
@@ -35,6 +41,36 @@ const router = new Router({
         path: '/signupteacher',
         name: 'SignUpTeacher',
         component: SignUpTeacher
+      },
+      {
+        path: '/dotnetavg',
+        name: 'dotnetavg',
+        component: dotnetavg
+      },
+      {
+        path: '/ajavg',
+        name: 'ajavg',
+        component: ajavg
+      },
+      {
+        path: '/wtavg',
+        name: 'wtavg',
+        component: wtavg
+      },
+      {
+        path: '/aj1',
+        name: 'aj1',
+        component: aj1
+      },
+      {
+        path: '/aj2',
+        name: 'aj2',
+        component: aj2
+      },
+      {
+        path: '/aj3',
+        name: 'aj3',
+        component: aj3
       },
       {
         path: '/signupstudent',
