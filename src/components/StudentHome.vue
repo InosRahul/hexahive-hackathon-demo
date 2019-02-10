@@ -91,7 +91,7 @@ import {VIEW_DATA} from '@/graphql'
 import {VIEW_DATA_WT} from '@/graphql'
 import firebase from 'firebase'
 export default {
-    name: 'ViewData',
+    name: 'StudentHome',
     data: ()=>({
         student_id: null,
         date: '',
