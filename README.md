@@ -1,3 +1,6 @@
+# Documentation for HexaHive Hackathon Project - Attendance Tracker
+
+
 # diamond-hack
 
 ## Project setup
