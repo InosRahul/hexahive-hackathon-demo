@@ -72,7 +72,7 @@ export default {
         signup: function(){
             firebase.auth().createUserWithEmailAndPassword(this.email,this.password).then(
                 (user)=>{
-                    this.$router.replace('loginteacher')
+                    this.$router.replace('teacherhome')
                 },
                 function(err){
                     alert('OOps.' +err.message)

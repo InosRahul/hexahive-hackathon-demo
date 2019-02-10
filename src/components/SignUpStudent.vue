@@ -64,7 +64,7 @@
 import firebase from 'firebase'
 
 export default {
-    name: 'SignUp',
+    name: 'SignUpStudent',
     data () {
         return {
             firstname: '',
@@ -78,7 +78,7 @@ export default {
         signup: function(){
             firebase.auth().createUserWithEmailAndPassword(this.email,this.password).then(
                 (user)=>{
-                    this.$router.replace('loginstudent')
+                    this.$router.replace('studenthome')
                 },
                 function(err){
                     alert('OOps.' +err.message)
