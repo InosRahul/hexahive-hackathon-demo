@@ -1,5 +1,12 @@
 # Documentation for HexaHive Hackathon Project - Attendance Tracker
 
+## Technologies Used
+1. **VueJS** (Frontend)
+2. **Hasura GraphQL Engine**(Backend)
+3. **Firebase** (Authentication)
+4. **Apollo Server** (Cli client for running graphql queries)
+5. **Netlify** (Deployment)
+
 
 # diamond-hack
 
